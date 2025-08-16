@@ -1,0 +1,43 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# =====================
+# Virtual Environment
+# =====================
+.env
+.venv/
+env/
+venv/
+
+# =====================
+# Streamlit
+# =====================
+.streamlit/
+
+# =====================
+# FAISS Index files
+# =====================
+faiss_index/
+
+# =====================
+# Logs & Cache
+# =====================
+*.log
+*.cache
+.ipynb_checkpoints/
+
+# =====================
+# OS Files
+# =====================
+.DS_Store
+Thumbs.db
